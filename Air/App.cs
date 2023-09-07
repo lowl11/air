@@ -38,7 +38,8 @@ public static class App
         services.AddScoped<IUserRepository, UserRepository>();
         
         // aircraft
-        services.AddScoped<IFlightRepository, FlightRepository>();
+        services.AddScoped<FlightRepository>();
+        services.AddScoped<IFlightRepository, CacheFlightRepository>();
     }
 
     public static void AddServices(this IServiceCollection services, ConfigurationManager manager)
