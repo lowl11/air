@@ -17,6 +17,19 @@ services:
       - "5432:5432"
 ```
 
+### Миграции
+Aircraft Context
+```bash
+dotnet-ef migrations add Initial --project Aircraft --startup-project Air --context AircraftContext
+dotnet-ef database update --project Aircraft --startup-project Air --context AircraftContext
+```
+
+Auth Context
+```bash
+dotnet-ef migrations add Initial --project Auth --startup-project Air --context AuthContext
+dotnet-ef database update --project Auth --startup-project Air --context AuthContext
+```
+
 ### Пользователи
 При применении миграции создаются 3 пользователя с зашифрованными паролями <br>
 Так же создаются 3 роли:
