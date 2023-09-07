@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Air", "Air\Air.csproj", "{F3148309-8D82-465E-8655-F636F7CE94D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{3714E9CE-C964-45A7-8027-F6EC640C5941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{1565D3ED-ED75-49D9-85FD-493E29C60AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "Auth\Auth.csproj", "{A859BCBE-AAC8-4B0D-8F2F-5DB4174DE396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aircraft", "Aircraft\Aircraft.csproj", "{6437621F-BE5D-4F22-ACFC-822B437EF0AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3148309-8D82-465E-8655-F636F7CE94D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3148309-8D82-465E-8655-F636F7CE94D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3148309-8D82-465E-8655-F636F7CE94D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3148309-8D82-465E-8655-F636F7CE94D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3714E9CE-C964-45A7-8027-F6EC640C5941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3714E9CE-C964-45A7-8027-F6EC640C5941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3714E9CE-C964-45A7-8027-F6EC640C5941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3714E9CE-C964-45A7-8027-F6EC640C5941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1565D3ED-ED75-49D9-85FD-493E29C60AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1565D3ED-ED75-49D9-85FD-493E29C60AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1565D3ED-ED75-49D9-85FD-493E29C60AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1565D3ED-ED75-49D9-85FD-493E29C60AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A859BCBE-AAC8-4B0D-8F2F-5DB4174DE396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A859BCBE-AAC8-4B0D-8F2F-5DB4174DE396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A859BCBE-AAC8-4B0D-8F2F-5DB4174DE396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A859BCBE-AAC8-4B0D-8F2F-5DB4174DE396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6437621F-BE5D-4F22-ACFC-822B437EF0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6437621F-BE5D-4F22-ACFC-822B437EF0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6437621F-BE5D-4F22-ACFC-822B437EF0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6437621F-BE5D-4F22-ACFC-822B437EF0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
